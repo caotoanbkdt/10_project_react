@@ -1,0 +1,37 @@
+.panel {
+  background-color: #f4fce8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0 -2rem;
+  padding: 0 2rem;
+  border-top: 1px solid #eee;
+}
+
+.panelRight {
+  display: flex;
+  justify-content: space-around;
+}
+
+.panelRight span {
+  margin: 10px;
+  padding: 0.4rem;
+}
+
+i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.btn.active {
+  border: 1px solid rgb(235, 146, 114);
+}
+

@@ -1,0 +1,28 @@
+ul {
+  padding: 0;
+}
+
+.item {
+  width: 100%;
+  list-style: none;
+  margin: 0.4rem 0;
+  padding: 0.4rem 0;
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.8rem;
+}
+.item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  font-size: inherit;
+}
+
+.title.checked {
+  text-decoration: line-through;
+  color: #ddd;
+}
+
