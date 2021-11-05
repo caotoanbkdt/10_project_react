@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="result">5.4</div>
+      <div className="result">0</div>
       <div className="controls">
         <div className="row">
           <button>AC</button>
