@@ -1,0 +1,8 @@
+.result {
+  background-color: #858694;
+  text-align: right;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1rem;
+  flex: 0 0 auto;
+}

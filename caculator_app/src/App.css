@@ -4,45 +4,6 @@
   height: 100%;
 }
 
-.result {
-  background-color: #858694;
-  text-align: right;
-  font-size: 2.5rem;
-  color: #fff;
-  padding: 1rem;
-  flex: 0 0 auto;
-}
-
-.controls {
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-.row {
-  display: flex;
-  flex:1;
-}
-
-button {
-  flex-basis: 25%;
-  font-size: 1.5rem;
-  background-color: #e0e0e0;
-}
-
-button.btn-control {
-  background-color: orange;
-}
-
-button.btn-extend {
-  flex-basis: 50%;
-}
-
-@media (min-width:734px) and (max-width:1024px){
-  .result {
-    padding: 0.4rem;
-  }
-}
-
 @media (max-width: 739px) {
   .result {
     padding: 0.2rem;
